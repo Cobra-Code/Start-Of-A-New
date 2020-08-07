@@ -28,7 +28,7 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 48,
+            "posY" : 24,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -42,7 +42,7 @@
         {
             "text" : "menu.multiplayer",
             "posX" : -100,
-            "posY" : 72,
+            "posY" : 48,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -51,13 +51,56 @@
                 "gui" : "multiplayer"
             }
         },
-        
+
+        "Releases":
+        {
+            "text" : "Releases",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Cobra-Code/Start-Of-A-New/releases"
+            }
+        },
+
+        "Issues":
+        {
+            "text" : "Issues",
+            "posX" : 2,
+            "posY" : 72,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Cobra-Code/Start-Of-A-New/issues"
+            }
+        },
+
+        "discord":
+        {
+            "text" : "Discord",
+            "tooltip" : "Join the Discord Server!",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/ETPCSHU"
+            }
+        },
+
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
+            "posX" : 2,
             "posY" : 96,
-            "width" : 200,
+            "width" : 98,
             "height" : 20,
             "action" : 
             {
@@ -82,7 +125,7 @@
         
         "quit":
         {
-            "text" : "menu.quit",
+            "text" : "Exit To Desktop",
             "posX" : 2,
             "posY" : 132,
             "width" : 98,
@@ -105,20 +148,6 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
         }
     },
     
@@ -127,7 +156,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -136,6 +165,21 @@
             {
                 "type" : "openGui",
                 "gui" : "credits"
+            }
+        },
+
+        "Versions":
+        {
+            "text" : "Modpack Version S1.0",
+            "hoverText" : "    Version Stable 1.0",
+            "posX" : -110,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/Cobra-Code/Start-Of-A-New"
             }
         },
         
@@ -154,7 +198,7 @@
         "splash-text":
         {
             "posX" : 90,
-            "posY" : 70,
+            "posY" : 70999,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:minecraft:texts/splashes.txt"
