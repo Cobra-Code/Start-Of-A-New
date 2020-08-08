@@ -3,21 +3,21 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "image" : "cobra code:title.png",
+            "posX" : -110,
+            "posY" : 25,
+            "width" : 225,
+            "height" : 45,
             "alignment" : "top_center"
         },
         
         "edition":
         {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "image" : "cobra code:Cobra-Code.png",
+            "posX" : -60,
+            "posY" : 5,
+            "width" : 115,
+            "height" : 20,
             "alignment" : "top_center"
         }
     },
