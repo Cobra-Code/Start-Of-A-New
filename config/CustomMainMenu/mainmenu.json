@@ -27,6 +27,8 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
+            "hoverTextColor" : "9109643",
+            "tooltip" : "Play alone",
             "posX" : -100,
             "posY" : 24,
             "width" : 200,
@@ -41,6 +43,8 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
+            "hoverTextColor" : "9109643",
+            "tooltip" : "Play with friends",
             "posX" : -100,
             "posY" : 48,
             "width" : 200,
@@ -55,6 +59,8 @@
         "Releases":
         {
             "text" : "Releases",
+            "hoverTextColor" : "9109643",
+            "tooltip" : "Go to all the releases for the modpack",
             "posX" : -100,
             "posY" : 72,
             "width" : 98,
@@ -69,6 +75,8 @@
         "Issues":
         {
             "text" : "Issues",
+            "hoverTextColor" : "9109643",
+            "tooltip" : "Go to the issues tracker",
             "posX" : 2,
             "posY" : 72,
             "width" : 98,
@@ -83,6 +91,7 @@
         "discord":
         {
             "text" : "Discord",
+            "hoverTextColor" : "9109643",
             "tooltip" : "Join the Discord Server!",
             "posX" : -100,
             "posY" : 96,
@@ -98,6 +107,8 @@
         "mods":
         {
             "text" : "fml.menu.mods",
+            "hoverTextColor" : "9109643",
+            "tooltip" : "The mods list",
             "posX" : 2,
             "posY" : 96,
             "width" : 98,
@@ -109,9 +120,11 @@
             }
         },
             
-        "options":
+        "settings":
         {
-            "text" : "menu.options",
+            "text" : "Settings",
+            "hoverTextColor" : "9109643",
+            "tooltip" : "Configure your settings",
             "posX" : -100,
             "posY" : 132,
             "width" : 98,
@@ -126,6 +139,8 @@
         "quit":
         {
             "text" : "Exit To Desktop",
+            "hoverTextColor" : "9109643",
+            "tooltip" : "Close the game",
             "posX" : 2,
             "posY" : 132,
             "width" : 98,
@@ -139,6 +154,7 @@
         "language":
         {
             "text" : "",
+            "tooltip" : "Language",
             "posX" : -124,
             "posY" : 132,
             "width" : 20,
