@@ -30,6 +30,7 @@ You may need to alocate more ram to the server. We suggest using a Server hostin
 
 By downloading a server package you are agreeing to mojangs EULA (https://account.mojang.com/documents/minecraft_eula)
 
-| Version | Supported               |
-| ------- | ----------------------- |
-| S1.0    | :ballot_box_with_check: |
+
+| Version | Supported               | Type                 | Support Provided    |
+| ------- | ----------------------- | -------------------- | ------------------- |
+| S1.0    | Coming Soon             | Stable               | :ballot_box_with_check: |
